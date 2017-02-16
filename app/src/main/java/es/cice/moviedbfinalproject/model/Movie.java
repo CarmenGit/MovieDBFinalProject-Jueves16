@@ -21,7 +21,7 @@ public class Movie {
     private Integer vote_count;
     private Boolean video;
     private Double vote_average;
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+    private Map<String, Object> additionalProperties = new HashMap<String, Object>(); 
 
     public String getPosterPath() {
         return poster_path;
